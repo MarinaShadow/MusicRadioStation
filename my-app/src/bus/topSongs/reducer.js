@@ -7,7 +7,6 @@ const initialState = {
     error: null,
 };
 
-// const addKey = (dataFilms) => dataFilms.map(film => film && {...film, key: film.title} );
 
 export const topSongsReducer = (state = initialState, { type, payload}) => {
     switch (type) {
